@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Example\\Ddd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Example\\Ddd\\Test\\": "test/"
+        }
+    },
+    "require" : {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-sqlite3": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
